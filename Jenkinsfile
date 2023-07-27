@@ -42,7 +42,7 @@ pipeline {
     }
   tools {
     maven 'maven-3.9.0'
-    jdk 'java17'
+    jdk 'java-17'
   }
   stages {
     stage ('Build') {
